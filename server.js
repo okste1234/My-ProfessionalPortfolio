@@ -40,7 +40,7 @@ app.post('/send',(req, res)=>{
         service: "gmail",
         auth: {
           user: 'okste1234@gmail.com',
-          pass: 'anuoluwaposi', // generated ethereal password
+          pass: '', // generated ethereal password
         },
     });
     
