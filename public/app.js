@@ -24,9 +24,9 @@ navLink.forEach(navLi => navLi.addEventListener('click',
 /*==================== TYPING ANIMATION ====================*/
 
 let typed = new Typed(".typing", {
-    strings: ["< A Frontend Developer />", "{ A Shopify Developer }", "{ A MERN Stack Developer }"],
+    strings: ["{ A Frontend Developer }", "{ A Shopify Developer }", "< A MERN Stack Developer />"],
     typeSpeed: 200,
-    backSpeed: 300,
+    backSpeed: 150,
     loop: true,
 });
 
